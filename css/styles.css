@@ -292,7 +292,8 @@ address {
     gap: 24px;
     display: flex;
     padding-bottom: 72px;
-    margin-left: 860px;
+    justify-content: center;
+    text-align: center;
 }
 
 .our-team-list {
