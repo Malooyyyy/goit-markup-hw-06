@@ -73,7 +73,9 @@
         <div class="main-title">
           <h1 class="subtitle">Effective Solutions for Your Business</h1>
 
-          <button type="button" class="btn is-open">Order Service</button>
+          <button type="button" class="btn" id="openModal">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -851,6 +853,7 @@
                           </clipPath>
                         </defs>
                       </svg>
+
                       <!--Facebook-->
                     </a>
                   </li>
@@ -1049,6 +1052,7 @@
                     </clipPath>
                   </defs>
                 </svg>
+
                 <!-- Twitter -->
               </a>
             </li>
@@ -1073,6 +1077,7 @@
                     </clipPath>
                   </defs>
                 </svg>
+
                 <!-- Facebook -->
               </a>
             </li>
@@ -1105,6 +1110,7 @@
                     </clipPath>
                   </defs>
                 </svg>
+
                 <!-- LinkedIn -->
               </a>
             </li>
@@ -1119,7 +1125,8 @@
                 type="email"
                 placeholder="E-mail"
                 name="input-email"
-                id=""
+                id="email"
+                required
               />
             </label>
             <button class="button-footer" type="submit">
@@ -1142,10 +1149,11 @@
         </div>
       </div>
     </footer>
+
     <!-- Modal Overlay -->
-    <div class="modal-overlay">
+    <div class="modal-overlay" id="modal">
       <div class="modal">
-        <button class="close">
+        <button class="close" id="closeModal">
           <svg
             class="close-icon"
             width="8"
@@ -1214,15 +1222,17 @@
             class="visually-hidden"
             type="checkbox"
             value="type"
-            name="user-privacy"
+            name="checkbox"
           />
-          <label class="text-overlay-checkbox" for="user-privacy"
+          <label class="text-overlay-checkbox" for="text-checkbox"
             >I accept the terms and conditions of the
             <a class="privacy-policy" href="#">Privacy Policy</a></label
           >
         </form>
-        <button class="button-overlay" type="submit">Send</button>
+        <button class="button-overlay is-close" type="submit">Send</button>
       </div>
     </div>
+
+    <script defer src="script.js"></script>
   </body>
 </html>

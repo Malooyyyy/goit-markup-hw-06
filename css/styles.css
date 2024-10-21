@@ -728,6 +728,11 @@ form.form-overlay-privacy {
   top: 24px;
 }
 
+.close.close-icon.modal-overlay.is-close {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
