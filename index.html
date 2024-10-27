@@ -1119,7 +1119,7 @@
         <div class="subscribe">
           <p class="title-subcribe">Subscribe</p>
           <form class="form-subcribe">
-            <label class="label" for="">
+            <label class="label" for="email">
               <input
                 class="input"
                 type="email"
@@ -1173,41 +1173,44 @@
           Leave your contacts and we will call you back
         </h3>
         <p class="text-overlay">Name</p>
-        <form class="form-overlay" action="">
+        <form class="form-overlay" action=".">
           <label for="name">
             <input
               class="input-overlay input-overlay-name"
               type="text"
               name="name"
+              id="name"
               required
             />
           </label>
         </form>
         <p class="text-overlay">Phone</p>
-        <form class="form-overlay" action="">
-          <label for="tel">
+        <form class="form-overlay" action=".">
+          <label for="contact_tel">
             <input
               class="input-overlay input-overlay-phone"
               type="tel"
               name="contact_tel"
+              id="contact_tel"
               required
             />
           </label>
         </form>
         <p class="text-overlay">Email</p>
-        <form class="form-overlay" action="">
-          <label for="email" placeholder="Email">
+        <form class="form-overlay" action=".">
+          <label for="user_email">
             <input
               class="input-overlay input-overlay-email"
               type="email"
               name="user_email"
+              id="user_email"
               required
             />
           </label>
         </form>
         <p class="text-overlay">Comment</p>
-        <form class="form-overlay" action="">
-          <label for="comment">
+        <form class="form-overlay" action=".">
+          <label for="text">
             <textarea
               class="textarea"
               name="comment"
@@ -1217,14 +1220,14 @@
           </label>
         </form>
 
-        <form class="form-overlay-privacy" action="">
+        <form class="form-overlay-privacy" action=".">
           <input
             class="visually-hidden"
             type="checkbox"
             value="type"
             name="checkbox"
           />
-          <label class="text-overlay-checkbox" for="text-checkbox"
+          <label class="text-overlay-checkbox"
             >I accept the terms and conditions of the
             <a class="privacy-policy" href="#">Privacy Policy</a></label
           >
