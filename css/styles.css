@@ -48,7 +48,7 @@ address {
   color: #4d5ae5;
   cursor: pointer;
   display: flex;
-  padding-right: 156px;
+  margin-right: 156px;
 }
 
 .logo {
@@ -236,6 +236,10 @@ address {
   overflow: hidden;
 }
 
+.icon-fill {
+  margin: 0 auto;
+}
+
 .features-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -259,8 +263,8 @@ address {
   color: #2e2f42;
   margin-bottom: 8px;
   display: flex;
-  width: calc((100% - 72px) / 4);
   gap: 24px;
+  margin-top: 8px;
 }
 
 .features-paragraph {
@@ -279,7 +283,7 @@ address {
 .our-team {
   background-color: #f4f4fd;
   text-transform: capitalize;
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 120px;
   width: 100%;
 }
@@ -297,7 +301,6 @@ address {
   padding-bottom: 72px;
   justify-content: center;
   text-align: center;
-  padding-top: 120px;
 }
 
 .our-team-list {
@@ -324,7 +327,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin: 0 auto;
 }
 
 .team-roles {
@@ -336,6 +339,7 @@ address {
   text-align: center;
   color: #434455;
   text-align: center;
+  margin-top: 8px;
 }
 
 .staff-social {
