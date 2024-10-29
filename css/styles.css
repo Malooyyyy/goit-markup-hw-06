@@ -372,6 +372,10 @@ address {
   gap: 20px;
 }
 
+.team-svg {
+  color: #111;
+}
+
 /* Section #4 */
 
 .our-portfolio {
