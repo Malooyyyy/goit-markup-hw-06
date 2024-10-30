@@ -238,6 +238,19 @@ address {
 
 .icon-fill {
   margin: 0 auto;
+  width: 264px;
+  height: 112px;
+  border: 1px solid  #8E8F99;
+  background-color: #F4F4FD;
+}
+
+.icons {
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 24px 100px 24px 100px;
 }
 
 .features-section {
