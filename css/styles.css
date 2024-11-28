@@ -468,7 +468,6 @@ address {
 .overlay {
   position: absolute;
   top: 0;
-  display: flex;
   background-color: #4d5ae5;
   color: #f4f4fd;
   height: 100%;
@@ -480,6 +479,7 @@ address {
   line-height: 24px;
   letter-spacing: 2%;
   transform: translateY(100%);
+  transition: all 300ms ease;
 }
 
 .overlay-img {
