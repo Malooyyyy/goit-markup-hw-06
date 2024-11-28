@@ -85,6 +85,7 @@ address {
   margin: 0 auto;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
 }
 
 .navigation:hover::after {
@@ -96,10 +97,12 @@ address {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  transform: scale(1.05);
 }
 
 .navigation:hover {
   color: #404bbf;
+  transform: scale(1.05);
 }
 
 .navigation:focus {
@@ -124,10 +127,12 @@ address {
   color: #434455;
   font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
 }
 
 .navigation-address:hover {
   color: #404bbf;
+  transform: scale(1.05);
 }
 
 .navigation-address:focus {
@@ -211,10 +216,12 @@ address {
   align-items: center;
   margin: 0 auto;
   margin-top: 48px;
+  transition: all 0.4s ease;
 }
 
 .btn:hover {
   background-color: #404bbf;
+  transform: scale(1.05);
 }
 
 .btn:focus {
@@ -370,10 +377,12 @@ address {
   justify-content: center;
   height: 100%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
 }
 
 .staff-link:hover {
   background-color: #404bbf;
+  transform: scale(1.05);
 }
 
 .staff-link:focus {
@@ -428,6 +437,7 @@ address {
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .project-item img {
@@ -439,6 +449,7 @@ address {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
+  transform: scale(1.05);
 }
 
 .portfolio-item:first-child {
@@ -564,10 +575,12 @@ address {
   justify-content: center;
   height: 100%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
 }
 
 .social-link:hover {
   background-color: #31d0aa;
+  transform: scale(1.05);
 }
 
 .social-link:focus {
@@ -625,10 +638,16 @@ address {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  transition: all 0.4s ease;
 }
 
 .send {
   margin-left: 16px;
+}
+
+.button-footer:hover {
+  background-color: #404bbf;
+  transform: scale(1.05);
 }
 
 /* Overlay */
