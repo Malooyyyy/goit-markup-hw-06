@@ -425,11 +425,15 @@ address {
   line-height: 1.11;
   text-transform: capitalize;
   flex-wrap: wrap;
-  display: flex;
   gap: 24px;
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
   cursor: pointer;
+}
+
+.project-item img {
+  max-width: 360px;
+  max-height: 300px;
 }
 
 .portfolio-item:hover {
@@ -459,6 +463,32 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  display: flex;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  height: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  transform: translateY(100%);
+}
+
+.overlay-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item:hover .overlay {
+  transform: translateY(0%);
 }
 
 /* Footer */
