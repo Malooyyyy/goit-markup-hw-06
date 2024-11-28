@@ -489,7 +489,7 @@ address {
   line-height: 24px;
   letter-spacing: 2%;
   transform: translateY(100%);
-  transition: all 300ms ease;
+  transition: all 0.8s ease;
   margin: 0;
 }
 
