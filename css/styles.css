@@ -493,6 +493,10 @@ address {
 
 /* Footer */
 
+.footer-div {
+  margin-right: 120px;
+}
+
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -516,13 +520,17 @@ address {
 .footer-paragraph {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 24px;
+  letter-spacing: 2%;
   color: #f4f4fd;
   margin-top: 18px;
 }
 
 /* Social Footer */
+
+.social {
+  margin-right: 80px;
+}
 
 .social-media {
   display: flex;
@@ -575,6 +583,7 @@ address {
   letter-spacing: 0.02em;
   color: #fff;
   margin: 0 auto;
+  padding-bottom: 16px;
 }
 
 .form-subcribe {
